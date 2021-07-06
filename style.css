@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -18,9 +19,17 @@ section{
 .half-width img{
     width: 70%;
 }
-.learn-more-button{
+.myself-button{
     text-decoratio: none;
     background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: whitesmoke;
+    font-weight: 300;
+    border-radius: 5px;
+}
+.link-button{
+    text-decoratio: none;
+    background-image: linear-gradient(skyblue, tomato);
     padding: 10px 40px;
     color: whitesmoke;
     font-weight: 300;
@@ -29,4 +38,44 @@ section{
 .top-banner{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+}
+.things-um-good-at{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+}
+.test img{
+    margin-left: 100px;
+    margin-top: ;
+}
+.food-recipe{
+    width: 30%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray ;
+    margin: 20px;
+
+}
+.food-recipe img{
+    width: 100%;
+    border-radius: 20px;
+
+
+}
+
+.flexible-container{
+    display: flex;
+    text-align: center;
+    padding: 0 100px;
+}
+.food-recipe-area{
+    text-align: center;
+}
+.footer {
+    padding: 80px;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    color: white;
 }
